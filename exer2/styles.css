@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+
+.Jujuba {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.Balinha {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.Balinha-verde {
+    background-color: #a6d09e;
+    width: 30%;
+}
+
+.Balinha-Amarela {
+    background-color: #ffaddd;
+    width: 70%;
+}
+
+.Bolo {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.side-block {
+    background-color: #e7e89a;
+    width: 25%;
+    height: 100%;
+}
+
+.center-block {
+    background-color: #dc98d5;
+    width: 50%;
+    height: 100%;
+}
+
+.Pirulito {
+    background-color: hsl(193, 87%, 67%);
+    height: 50px;
+    margin-top: 10px;
+}

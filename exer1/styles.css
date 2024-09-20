@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+
+.Preparo{
+    background-color: #6a3535; 
+    color: aliceblue;
+    border-radius: 8px;
+}
+#Ingredientes{
+    background-color: #827e7e; 
+    color: #f8f8fc;
+    border-radius: 8px;
+}
