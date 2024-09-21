@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.topo, .rodape {
+    background-color: green;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.menu {
+    background-color: blue;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.conteudo {
+    background-color: cyan;
+    height: 100vh;
+    padding-top: 100px; 
+    text-align: center;
+}

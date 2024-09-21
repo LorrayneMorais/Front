@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.topo, .rodape {
+    background-color: green;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.lateral-esquerda {
+    background-color: blue;
+    width: 150px;
+    float: left;
+    height: 100vh;
+    padding-top: 50px; 
+    text-align: center;
+}
+.conteudo {
+    background-color: cyan;
+    height: 100vh;
+    margin-left: 150px;
+    padding-top: 50px; 
+    text-align: center;
+}
