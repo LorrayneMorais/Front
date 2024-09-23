@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #e0e0e0;
+    background-color: #302f2f;
 }
 
 .Jujuba {
@@ -26,12 +26,12 @@ body {
 }
 
 .Balinha-verde {
-    background-color: #a6d09e;
+    background-color: #ffffff;
     width: 30%;
 }
 
 .Balinha-Amarela {
-    background-color: #ffaddd;
+    background-color: #936e84;
     width: 70%;
 }
 
@@ -42,19 +42,19 @@ body {
 }
 
 .side-block {
-    background-color: #e7e89a;
+    background-color: #72764f;
     width: 25%;
     height: 100%;
 }
 
 .center-block {
-    background-color: #dc98d5;
+    background-color: #705e6e;
     width: 50%;
     height: 100%;
 }
 
 .Pirulito {
-    background-color: hsl(193, 87%, 67%);
+    background-color: #474d4f;
     height: 50px;
     margin-top: 10px;
 }
