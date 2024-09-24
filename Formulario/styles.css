@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #5f6263;
+    color: #f3eaea;
+
+}
+form {
+    background-color: #c1c3c3;
+    border-radius: 8px;
+    padding: 6px;
+}
+.titulo-pagina {
+    text-align: center;
+
+}
+
+.titulo-pagina p {
+    font-size: 0.8rem;
+
+}
+.titulo-pagina h1 {
+    font-size: 1rem;
+
+}
+.campo-info-pessoais {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+
+.box-input {
+    display: flex;
+    flex-direction: column;
+    /* gap:0.5rem; */
+}
+.campo-stack {
+    display: flex;
+    gap: 0.3rem;
+    margin-bottom: 12px;
+
+}
