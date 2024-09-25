@@ -57,6 +57,18 @@ header h3 {
     font-size: 2rem;
     color: #b0b0b0;
 }
+/* Estilos para centralizar o vídeo */
+.video-section {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+video {
+    width: 40%; /* 40% da tela */
+    border: 5px solid #ffffff; /* Borda branca */
+    border-radius: 10px;
+}
 
 .categorias {
     display: flex;
