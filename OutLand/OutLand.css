@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    text-align: center; /* Alinhamento do texto ao centro */
+    padding: 0; /* Remove qualquer espaço interno */
+    background-image: url('./assets/2.webp'); /* Imagem de fundo */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    background-size: 100% auto; /* Tamanho da imagem de fundo */
+    background-position: center; /* Posição da imagem de fundo */
+    background-attachment: fixed; /* A imagem de fundo não rola com a página */
+    opacity: 1.0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topo {
+    width: 100%;
+    height: 10rem;
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #212529;
+    box-shadow: 0 4px 6px #343a40;
+}
+
+.topo img {
+    width: 15%;
+    margin-left: 2.5rem;
+}
+
+ul {
+    margin-right: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e9ecef;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+.home:hover {
+    font-size: 2rem;
+}
+
+.sobre:hover {
+    font-size: 2rem;
+}
+
+.contato:hover {
+    font-size: 2rem;
+}
+
+/* Estilos para centralizar o vídeo */
+.video-section {
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    width: 100%; /* 40% da tela */
+    border: 0.5px solid #f4f3f9; /* Borda branca */
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+/* Estilo da seção sobre a desenvolvedora */
+.sinopse {
+    margin-left: 32%;
+    width: 34%;
+    background-color: #1d1c1c5e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #bdbcbc1a;
+    text-align: center;
+}
+.imagem {
+    width: 100%;
+    align-content: center;
+}
+.sinopse img {
+    width: 55%;
+    align-content: center;
+}
+/* Estilo do texto da desenvolvedora */
+.sinopse p {
+    margin-bottom: 10%;
+    margin-top: 5%;
+    flex-direction: column;
+    display: flex;
+    color: #cac8c3; /* Cor do texto */
+    font-size: 2rem; /* Tamanho da fonte */
+    line-height: 1.6; /* Altura da linha */
+    width: 100%; /* Largura do texto */
+}  
+/* Botão Assista a Série */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.btn-serie, .btn-aventura {
+    text-decoration: none;
+    background-color: #807c1e;
+    color: white;
+    padding: 30px 80px;
+    border-radius: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.btn-serie:hover, .btn-aventura:hover {
+    background-color: #3d3f13;
+}
+.temporadas{
+    margin-bottom: 10%;
+}
+.temporadas img {
+    width: 60%;
+}
+.temporadas h2 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 3rem;
+}
+/* Estilo do rodapé */
+footer {
+    margin-top: 0%; /* Margem superior */
+    font-size: 0.9rem; /* Tamanho da fonte */
+    color: #bbbbbb; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto ao centro */
+}
